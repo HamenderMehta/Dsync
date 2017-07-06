@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include dsync_integration *.css
+recursive-include dsync_integration *.csv
+recursive-include dsync_integration *.html
+recursive-include dsync_integration *.ico
+recursive-include dsync_integration *.js
+recursive-include dsync_integration *.json
+recursive-include dsync_integration *.md
+recursive-include dsync_integration *.png
+recursive-include dsync_integration *.py
+recursive-include dsync_integration *.svg
+recursive-include dsync_integration *.txt
+recursive-exclude dsync_integration *.pyc
